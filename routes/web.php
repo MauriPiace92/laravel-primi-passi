@@ -33,8 +33,13 @@ Route::get('/info', function () {
         'paese'=> 'Barga',
         'sottotitolo'=> 'Desideri più info su ',
         'info'=> 'Barga è un comune italiano di 9 606 abitanti della provincia di Lucca in Toscana.
-                  Costituisce il centro più popoloso della Media Valle del Serchio e per la sua importanza storica, artistica, civica e demografica, Barga si fregia del titolo di Città dal 1933. È stata riconosciuta tra i "borghi più belli d\'Italia", bandiera arancione del Touring Club Italiano e Cittaslow, marchi di qualità turistica di prestigio.'
-
+                  Costituisce il centro più popoloso della Media Valle del Serchio e per la sua importanza storica, artistica, civica e demografica, Barga si fregia del titolo di Città dal 1933. È stata riconosciuta tra i "borghi più belli d\'Italia", bandiera arancione del Touring Club Italiano e Cittaslow, marchi di qualità turistica di prestigio.',
+        'frazioni'=>[
+            'Albiano',
+            'Castelvecchio Pascoli',
+            'Filecchio',
+            'Fornaci'
+        ]
     ];
     
 

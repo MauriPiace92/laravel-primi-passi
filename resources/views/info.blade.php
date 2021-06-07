@@ -12,6 +12,13 @@
 
     <h3>{{$info}}</h3>
 
+    <ul>
+        <h4>Le frazioni del comune sono:</h4>
+        @foreach ( $frazioni as $frazione)
+            <li>{{ $frazione }}</li>
+        @endforeach
+    </ul>
+
     <a href="{{ route('home')}}">Torna alla home</a>
 
 
